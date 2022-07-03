@@ -146,12 +146,12 @@ public class Main {
 
         final var parsedInput = Problem_3.toString(matrix);
 
-        System.out.println(String.format("Parsed Input: %s\n", parsedInput));
+        System.out.println(String.format("Parsed Input:\n%s\n", parsedInput));
 
         System.out.println("Results on parsed input...\n");
 
         final var area = Problem_3.computeAreaOfLargestSquare(matrix, n, m);
 
-        System.out.println(String.format("Area of largest square %s", area));
+        System.out.println(String.format("Area of largest square: %s", area));
     }
 }
