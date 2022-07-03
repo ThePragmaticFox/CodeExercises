@@ -1,0 +1,30 @@
+plugins {
+    id "java"
+    id "application"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_18
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(platform('org.junit:junit-bom:5.8.2'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    implementation("com.google.guava:guava:31.1-jre")
+}
+
+test {
+   useJUnitPlatform()
+}
+
+ext {
+   javaMainClass = "com.code_exercises.project.Main"
+}
+
+application {
+    mainClassName = javaMainClass
+}
