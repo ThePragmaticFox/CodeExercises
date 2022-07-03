@@ -34,7 +34,7 @@ public class Problem_3 {
 
         final var result1 = easiestDPVariant(matrix, n, m);
 
-        // We can safe some memory by using a temporary variable.
+        // We can save some memory by using a temporary variable.
 
         final var result2 = bestVariant(matrix, n, m);
 
