@@ -14,13 +14,13 @@ Example usage
 
 Output
 
-> Max number is: 1.000000
+> Max: 10.000000
 
-> Min number is: 10.000000
+> Min: 1.000000
 
-> Average is: 5.500000
+> Average: 5.500000
 
-> Std Deviation is: 2.872281
+> Std: 2.872281
 
 Complexity
 

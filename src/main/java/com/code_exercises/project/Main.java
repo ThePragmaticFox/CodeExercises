@@ -75,8 +75,8 @@ public class Main {
             }
         }
 
-        System.out.println(String.format("Max: %f\n", result.get(Statistics.MIN)));
-        System.out.println(String.format("Min: %f\n", result.get(Statistics.MAX)));
+        System.out.println(String.format("Max: %f\n", result.get(Statistics.MAX)));
+        System.out.println(String.format("Min: %f\n", result.get(Statistics.MIN)));
         System.out.println(String.format("Average: %f\n", result.get(Statistics.MEAN)));
         System.out.println(String.format("Std: %f", result.get(Statistics.STD)));
     }
